@@ -1,6 +1,8 @@
 export default defineDesktopApp({
     id: "org.owdproject.gridsky",
     name: "Gridsky",
+    category: "internet",
+    icon: "lucide:grid-3x3",
     windows: {
         main: {
             component: () => import('./app/components/Window/WindowGridsky.vue'),
@@ -12,7 +14,7 @@ export default defineDesktopApp({
             resizable: false,
             size: {
                 width: 400,
-                height: 800
+                height: 700
             },
             position: {
                 x: 400,
