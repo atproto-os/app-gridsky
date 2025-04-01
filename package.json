@@ -1,8 +1,9 @@
 {
   "name": "owd-app-gridsky",
+  "private": true,
   "version": "3.0.0-alpha.0",
   "license": "MIT",
-  "homepage": "https://github.com/atprotoOS/owd-app-gridsky",
+  "homepage": "https://github.com/atprotoOS/app-gridsky",
   "author": {
     "name": "dxlliv",
     "url": "https://github.com/dxlliv"
