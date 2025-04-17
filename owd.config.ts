@@ -1,16 +1,11 @@
 export default defineDesktopApp({
     id: "org.owdproject.gridsky",
-    name: "Gridsky",
+    title: "Gridsky",
     category: "internet",
     icon: "lucide:grid-3x3",
     windows: {
         main: {
             component: () => import('./app/components/Window/WindowGridsky.vue'),
-            name: "WindowDebug",
-            category: "social",
-            title: "Gridsky",
-            icon: "lucide:grid-3x3",
-            pinned: true,
             resizable: false,
             size: {
                 width: 400,
@@ -23,12 +18,14 @@ export default defineDesktopApp({
             },
         }
     },
+    entries: {
+        gridsky: {
+            command: 'gridsky'
+        }
+    },
     commands: {
         gridsky: (app) => {
             app.openWindow("main")
         }
     },
-    onLaunch: (app) => {
-        app.openWindow('main')
-    }
 })
