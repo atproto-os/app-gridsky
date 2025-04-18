@@ -1,4 +1,4 @@
-export default defineDesktopApp({
+export default {
     id: "org.owdproject.gridsky",
     title: "Gridsky",
     category: "internet",
@@ -28,4 +28,4 @@ export default defineDesktopApp({
             app.openWindow("main")
         }
     },
-})
+}
