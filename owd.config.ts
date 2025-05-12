@@ -5,7 +5,7 @@ export default {
     icon: "lucide:grid-3x3",
     windows: {
         main: {
-            component: () => import('./app/components/Window/WindowGridsky.vue'),
+            component: () => import('./runtime/components/Window/WindowGridsky.vue'),
             resizable: false,
             size: {
                 width: 400,
