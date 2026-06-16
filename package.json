@@ -1,11 +1,14 @@
 {
-  "name": "owd-app-gridsky",
+  "name": "@owdproject/app-gridsky",
   "private": true,
-  "version": "0.0.1'",
+  "version": "0.0.1",
   "license": "MIT",
   "homepage": "https://github.com/atproto-os/app-gridsky",
   "author": {
     "name": "dxlliv",
     "url": "https://github.com/dxlliv"
+  },
+  "peerDependencies": {
+    "@owdproject/core": "^3.4.0"
   }
 }
