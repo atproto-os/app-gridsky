@@ -59,6 +59,6 @@
     "@nuxt/schema": "^4.4.6",
     "@owdproject/theme-nova": "workspace:*",
     "nuxt": "^4.4.6",
-    "typescript": "catalog:"
+    "typescript": "~6.0.3"
   }
 }
